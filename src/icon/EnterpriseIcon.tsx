@@ -1,12 +1,13 @@
 import { Icon } from '@components/icon/Icon';
-import styles from './EnterpriseIcon.module.scss';
 import type { FunctionComponent } from 'react';
+
+import styles from './EnterpriseIcon.module.scss';
 
 export const EnterpriseIcon: FunctionComponent = () => {
     return (
         <span className={styles.enterpriseIcon}>
             (e)
-            <Icon name="icon" />
+            <Icon name="info" />
         </span>
     );
 };
