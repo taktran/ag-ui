@@ -7,7 +7,7 @@ export const EnterpriseIcon: FunctionComponent = () => {
     return (
         <span className={styles.enterpriseIcon}>
             (e)
-            <Icon name="info" />
+            <Icon name="enterprise" />
         </span>
     );
 };
